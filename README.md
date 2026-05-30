@@ -1,3 +1,12 @@
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/91a89840-4446-4ad4-a020-94d57c079f47"
+    alt="image"
+    width="518"
+    height="777"
+  />
+</p>
+
 # Threat Hunt - Azuki Import/Export
 ### Microsoft Defender for Endpoint | Nov 21, 2025
 
