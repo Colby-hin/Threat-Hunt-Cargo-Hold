@@ -43,8 +43,7 @@ This documents a full post-compromise intrusion on the Azuki network. The attack
 
 The IP identified here is the address the attacker used when coming back roughly 72 hours after first breaking in. Skilled attackers will commonly switch up their infrastructure between sessions to avoid being flagged by detections tied to a previously seen IP. Finding this new return address confirms the attacker kept their foothold, was patient, and is now pushing the intrusion further (MITRE ATT&CK TA0001 – Initial Access maintained through T1078 – Valid Accounts).
 
-<img width="2394" height="775" alt="Screenshot 2" src="https://github.com/user-attachments/assets/40cfb53b-25b0-4376-a75e-dd4d63ddb256" />
-
+<img width="2414" height="804" alt="Screenshot - 1" src="https://github.com/user-attachments/assets/1aa67120-2169-4bb9-b5ea-356ad8feb435" />
 
 
 ---
