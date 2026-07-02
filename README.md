@@ -218,7 +218,7 @@ Renaming tools is a basic but effective way to get around detections that look f
 
 **Finding:** `"pd.exe" -accepteula -ma 876 C:\Windows\Logs\CBS\lsass.dmp`
 
-Dumping LSASS memory is one of the most reliable signals of credential theft on Windows. LSASS stores sensitive authentication material including plaintext credentials, NTLM hashes, and Kerberos tickets for all logged on users. The attacker used a renamed tool with explicit memory dump arguments targeting the LSASS process, and wrote the output to a disguised path — both of which show deliberate intent and operational awareness. This maps to MITRE ATT&CK T1003.001 – OS Credential Dumping: LSASS Memory and should be treated as a containment critical event.
+Dumping LSASS memory is one of the most reliable signals of credential theft on Windows. LSASS stores sensitive authentication material including plaintext credentials, NTLM hashes, and Kerberos tickets for all logged on users. The attacker used a renamed tool with explicit memory dump arguments targeting the LSASS process, and wrote the output to a disguised path. This maps to MITRE ATT&CK T1003.001 – OS Credential Dumping: LSASS Memory and should be treated as a containment critical event.
 
 <img width="1654" height="659" alt="Screenshot 15 flag 15" src="https://github.com/user-attachments/assets/faccebde-3852-4317-b19d-53daf1e19c81" />
 
